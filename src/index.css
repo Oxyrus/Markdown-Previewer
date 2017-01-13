@@ -41,5 +41,35 @@ textarea {
 }
 
 .container .preview .inner-preview {
+  height: 90%;
+  overflow-y: scroll;
   margin: 1em;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F73859;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F73859;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+footer {
+  text-align: center;
+  margin: 2em;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #F8ECFD
 }
